@@ -29,7 +29,7 @@ This app provides a clean interface for teachers to take attendance, view class 
 - Percentage summary  
 - Export to CSV / PDF (optional feature)
 
-### ✔ Authentication (Optional)  
+### ✔ Authentication 
 - Teacher login  
 - Role-based access  
 - Admin controls for class creation
