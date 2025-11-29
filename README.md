@@ -42,8 +42,8 @@ This app provides a clean interface for teachers to take attendance, view class 
 |-----------|-----|
 | **React** | UI rendering |
 | **Tailwind CSS** | Styling |
-| **Node.js / Express (optional)** | Backend APIs |
-| **MongoDB / Firebase (optional)** | Database |
+| **Node.js / Express ** | Backend APIs |
+| **MongoDB / Firebase ** | Database |
 | **LocalStorage (demo mode)** | Temporary data |
 
 ---
