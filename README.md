@@ -1,57 +1,60 @@
-# 📘 Attendance Management App
-A modern and easy-to-use Attendance Management System designed for schools, colleges, and organizations.  
-This app provides a clean interface for teachers to take attendance, view class lists, track daily/weekly attendance, and generate reports.
+# 📘 Attendance Management System (Java)
+
+A complete Attendance Management System built using **Java**, designed for schools and colleges.  
+This application allows teachers and admins to easily manage student attendance, generate reports, and store data securely.
 
 ---
 
 ## 🚀 Features
 
-### ✔ Teacher-Friendly Dashboard  
-- Clean Apple-style UI  
-- Quick access buttons  
-- Daily summary (Present, Absent, Late)
-
-### ✔ Attendance Marking  
-- Mark Present / Absent / Late  
-- One-tap bulk attendance  
-- Editable before final submission  
-- Auto-save prevention
-
-### ✔ Class & Student Management  
-- View all classes assigned to a teacher  
-- Load students instantly  
-- Add / Edit student information  
-- Separate view for each class
-
-### ✔ Attendance Reports  
-- Day-wise student reports  
-- Monthly attendance chart  
-- Percentage summary  
-- Export to CSV / PDF (optional feature)
-
-### ✔ Authentication 
-- Teacher login  
+### ✔ Teacher & Admin Login
+- Secure login system  
 - Role-based access  
-- Admin controls for class creation
+- Separate dashboards for Teacher and Admin  
+
+### ✔ Attendance Marking
+- Mark **Present / Absent / Late**  
+- Auto-load student list by class  
+- Bulk attendance marking  
+- Edit before final submission  
+
+### ✔ Student Management
+- Add / Edit / Delete students  
+- Class-wise student listing  
+- Auto-generated student IDs  
+
+### ✔ Attendance Reports
+- Daily attendance view  
+- Monthly report generator  
+- Attendance percentage calculation  
+- Export reports to PDF/Excel (optional)  
+
+### ✔ Database Integration
+- Built using **MySQL / JDBC**  
+- Secure storage  
+- Fast and optimized queries  
+
+### ✔ UI Options
+- Java Swing (desktop UI)  
+- OR JavaFX (modern UI)  
 
 ---
 
 ## 🛠 Tech Stack
 
-| Technology | Use |
-|-----------|-----|
-| **React** | UI rendering |
-| **Tailwind CSS** | Styling |
-| **Node.js / Express ** | Backend APIs |
-| **MongoDB / Firebase ** | Database |
-| **LocalStorage (demo mode)** | Temporary data |
+| Technology | Description |
+|-----------|-------------|
+| **Java (JDK 17+)** | Core application |
+| **MySQL** | Database |
+| **JDBC** | Database connectivity |
+| **Swing / JavaFX** | User Interface |
+| **Maven / Gradle** | Build tool (optional) |
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Setup
 
+### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourname/attendance-management-app.git
-cd attendance-management-app
-npm install
-npm run dev
+git clone https://github.com/your-username/attendance-management-java.git
+cd attendance-management-java
